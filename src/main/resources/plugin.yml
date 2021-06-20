@@ -1,0 +1,17 @@
+name: CustomWarps
+version: 1.0.1
+main: me.simmimine.customwarps.customwarps.CustomWarps
+api-version: 1.16
+authors: [simmimine]
+description: CustomWarps plugin for minecraft 1.16.5
+website: www.github.com/simmimine
+
+commands:
+  setwarp:
+    description: Use /setwarp to set a warp
+  delwarp:
+    description: Use /delwarp to delete a previously set warp
+  warp:
+    description: Use /warp to tp to a previously set warp
+  mywarps:
+    description: Use /mywarps to see all warps you have made
